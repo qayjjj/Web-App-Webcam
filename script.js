@@ -27,7 +27,7 @@ const webcamOff = () => {
 button.onclick = () => {
   if (video.srcObject.active) {
     confirm("Do you want to turn off your webcam?")
-			&& webcamOff()
+      && webcamOff()
   } else {
     confirm("Do you want to turn on your webcam?")
       && webcamOn()
