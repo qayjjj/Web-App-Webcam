@@ -16,8 +16,8 @@ const webcamOn = () => {
 // Turn off webcam
 const webcamOff = () => {
   try {
-  const tracks = video.srcObject.getTracks()
-  tracks[0].stop()
+    const tracks = video.srcObject.getTracks()
+    tracks[0].stop()
   } catch (error) {
     console.log(error)
   }
